@@ -11,4 +11,4 @@ inputArea.addEventListener('blur', () => {
     }else{
         return inputArea.classList.add('invalid');
     }   
-});
+}); 
