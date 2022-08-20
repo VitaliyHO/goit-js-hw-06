@@ -12,7 +12,7 @@ function onSubmitForm(event){
     } = event.currentTarget;
 
     if(email.value === '' || password.value === ''){
-        return console.error('All area must be fill');
+        return alert('All area must be fill');
     }else{
         console.log(`Email: ${email.value}, Password: ${password.value}`);
     }
